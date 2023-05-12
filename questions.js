@@ -1,0 +1,22 @@
+const questions = [
+  { question: "What is your favorite sport to watch and why?", category: 'sport' },
+  { question: "Have you ever played a sport? If so, which one(s) and for how long?", category: 'sport' },
+  { question: "Do you prefer team sports or individual sports and why?", category: 'sport' },
+  { question: "Who is your favorite athlete and why?", category: 'sport' },
+  { question: "What is your favorite sports moment of all time?", category: 'sport' },
+  { question: "What do you do for a living?", category: "career" },
+  { question: "What inspired you to pursue your current career?", category: "career" },
+  { question: "What do you like most about your job?", category: "career" },
+  { question: "What do you find challenging about your job?", category: "career" },
+  { question: "What are your career goals for the next five years?", category: "career" },
+  { question: "Where is the most interesting place you've ever been to and why?", category: "travel" },
+  { question: "What is your favorite way to travel and why?", category: "travel" },
+  { question: "What's on your travel bucket list and why?", category: "travel" },
+  { question: "Do you prefer to travel alone or with others and why?", category: "travel" },
+  { question: "What's the most memorable experience you've had while traveling?", category: "travel" },
+  { question: "What is your favorite type of music and why?", category: "music" },
+  { question: "Who is your favorite musical artist and why?", category: "music" },
+  { question: "Have you ever been to a concert or music festival? If so, which one(s) and what was your favorite part?", category: "music" },
+  { question: "What is your favorite song of all time and why?", category: "music" },
+  { question: "Do you play any musical instruments? If so, which one(s)?", category: "music" }
+]

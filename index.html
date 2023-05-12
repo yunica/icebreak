@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Hugo 0.111.3" />
+    <title>Ice Break</title>
+
+    <link
+      href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <meta name="theme-color" content="#712cf9" />
+  </head>
+  <body
+    class="d-flex h-100 text-center text-bg-dark"
+    data-new-gr-c-s-check-loaded="14.1108.0"
+    data-gr-ext-installed=""
+  >
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div></div>
+      </header>
+
+      <main class="px-3" id="app">
+        <h2 class="mx-4">Ice Break</h1>
+        <p class="lead">
+          {{ message.question }} <small class="text-warning fw-lighter">{{ message.category }}</small>
+        </p>
+        <p class="lead" v-if="questions_all.length>0">
+          <a class="btn btn-lg btn-light fw-bold border-white bg-white" v-on:click="doSomething">Load question !!</a>
+        </p>
+        <!-- <p class="lead">
+          {{ usageQuestions }}
+        </p> -->
+      </main>
+
+      <footer class="mt-auto text-white-50">
+        <p>English practice, questions here</p>
+      </footer>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="questions.js"></script>
+    <script src="assets/scripts.js"></script>
+
+  </body>
+</html>
